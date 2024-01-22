@@ -142,36 +142,25 @@ INSERT INTO movies (
     year_released,
     rating,
     studio
-    ) VALUES (
+    ) VALUES
+        (
         "Batman Begins",
         2005,
         "PG-13",
         "Warner Bros."
-    );
-
-INSERT INTO movies (
-    title,
-    year_released,
-    rating,
-    studio
-    ) VALUES (
-        "The Dark Knight",
-        2008,
-        "PG-13",
-        "Warner Bros."
-    );
-
-INSERT INTO movies (
-    title,
-    year_released,
-    rating,
-    studio
-    ) VALUES (
-        "The Dark Knight Rises",
-        2012,
-        "PG-13",
-        "Warner Bros."
-    );
+        ),
+        (
+            "The Dark Knight",
+            2008,
+            "PG-13",
+            "Warner Bros."
+        ),
+        (
+            "The Dark Knight Rises",
+            2012,
+            "PG-13",
+            "Warner Bros."
+        );
 
 INSERT INTO actors (
     actor_name
